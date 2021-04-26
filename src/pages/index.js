@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import './../components/index.css'
 import animoji from './../images/animoji.jpg'
+import {BrowserRouter as Router, Route, Link, Switch} from "react-router-dom"
 
 const IndexPage = () => (
   <Layout>
