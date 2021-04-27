@@ -5,11 +5,14 @@ import Layout from "../components/layout"
 
 const SecondPage = () => (
   <Layout>
-    <div>
+    <div className='body'>
+    <div className='secondPoem'>
       <p>Practice practice</p>
       <p>Practice makes perfect</p>
       <p>Practice now</p>
-      <p>Will one day be worth it</p>
+      <p>Will one day</p>
+      <p>Be worth it</p>
+    </div>
     </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
