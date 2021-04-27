@@ -5,8 +5,12 @@ import Layout from "../components/layout"
 
 const SecondPage = () => (
   <Layout>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <div>
+      <p>Practice practice</p>
+      <p>Practice makes perfect</p>
+      <p>Practice now</p>
+      <p>Will one day be worth it</p>
+    </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

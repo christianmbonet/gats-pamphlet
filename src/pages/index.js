@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import './../components/index.css'
 import animoji from './../images/animoji.jpeg'
+import {Link} from 'gatsby'
 import SecondPage from "./page-2"
 
 const IndexPage = () => (
@@ -19,6 +20,7 @@ const IndexPage = () => (
       </div>
     </div>
   </Layout>
+
 )
 
 export default IndexPage
