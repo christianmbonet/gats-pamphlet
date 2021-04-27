@@ -1,5 +1,5 @@
 body {
-    background-color: #161a1d;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #bdb2ff;
+    background-color: white;
     width: 960px;
     height: 300px;
     border-radius: 50px;
