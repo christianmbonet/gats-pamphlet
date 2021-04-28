@@ -16,8 +16,11 @@ const IndexPage = () => (
         <p className='lines'>Built to last</p>
       </div>
       <div className='imageRow'>
-        <a href='./page-2/'>
-          <img className='animoji' src={animoji} alt='animoji'/>
+        <a href='./page-2/' className='arrowLeft'>
+          O
+        </a>
+        <a href='./page-3/'className='arrowRight'>
+          O
         </a>
       </div>
     </div>
