@@ -70,7 +70,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .arrowLeft {
@@ -81,6 +81,18 @@ body {
     height: 50px;
     background-color: red;
     color: red;
+    border-radius: 50px;
+}
+
+.arrowCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    color: yellow;
+    border-radius: 50px;
 }
 
 .arrowRight {
@@ -91,6 +103,7 @@ body {
     height: 50px;
     background-color: blue;
     color: blue;
+    border-radius: 50px;
 }
 
 a {

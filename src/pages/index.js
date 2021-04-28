@@ -10,18 +10,15 @@ const IndexPage = () => (
   <Layout>
     <div className='body'>
       <div className='poem'>
-        <p className='lines'>Welcome to the void</p>
-        <p className='lines'>The one with no past</p>
-        <p className='lines'>Type one android</p>
-        <p className='lines'>Built to last</p>
+        <p>Welcome to the void</p>
+        <p>The one with no past</p>
+        <p>Type one android</p>
+        <p>Built to last</p>
       </div>
       <div className='imageRow'>
-        <a href='./page-2/' className='arrowLeft'>
-          O
-        </a>
-        <a href='./page-3/'className='arrowRight'>
-          O
-        </a>
+        <Link to="/page-2/" className='arrowLeft'></Link>
+        <Link to='/'className='arrowCenter'></Link>
+        <Link to='page-3' className='arrowRight'></Link>
       </div>
     </div>
   </Layout>

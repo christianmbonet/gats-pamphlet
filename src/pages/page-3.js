@@ -11,10 +11,13 @@ const ThirdPage = () => (
       <p>xxxxxxx</p>
       <p>xxxxxxx</p>
       <p>xxxxxxx</p>
-      <p>xxxxxxx</p>
     </div>
+    <div className='imageRow'>
+      <Link to="/page-2/" className='arrowLeft'></Link>
+      <Link to='/'className='arrowCenter'></Link>
+      <Link to='page-3' className='arrowRight'></Link>
+      </div>
     </div>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

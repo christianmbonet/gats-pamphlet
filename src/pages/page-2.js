@@ -10,11 +10,14 @@ const SecondPage = () => (
       <p>Practice practice</p>
       <p>Practice makes perfect</p>
       <p>Practice now</p>
-      <p>Will one day</p>
-      <p>Be worth it</p>
+      <p>Will one day be worth it</p>
     </div>
+    <div className='imageRow'>
+      <Link to="/page-2/" className='arrowLeft'></Link>
+      <Link to='/'className='arrowCenter'></Link>
+      <Link to='page-3' className='arrowRight'></Link>
+      </div>
     </div>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
