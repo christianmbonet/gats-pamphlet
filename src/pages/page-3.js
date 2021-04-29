@@ -7,8 +7,8 @@ const ThirdPage = () => (
   <Layout>
     <div className='body'>
     <div className='thirdPoem'>
-      <p>xxxxxxx</p>
-      <p>xxxxxxx</p>
+      <p>0000000</p>
+      <p>0000000</p>
       <p>xxxxxxx</p>
       <p>xxxxxxx</p>
     </div>
